@@ -84,6 +84,10 @@ class RatingBST:
             self._inorder_print(node.right)
 
 
+
+#----------------test--------------------------------
+
+
 def main():
     # Initialize components
     history = PlaybackHistory()

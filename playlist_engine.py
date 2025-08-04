@@ -159,7 +159,7 @@ class Playlist:
             key_func = lambda song: int(song.duration.split(":")[0]) * 60 + int(song.duration.split(":")[1])
         elif criteria == "recent":
             print("[Info] Playlist is already in recently added order.")
-            self.print_playlist()
+            # self.print_playlist()
             return
         else:
             print(f"[Error] Unknown sorting criteria: {criteria}")

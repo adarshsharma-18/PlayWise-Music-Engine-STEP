@@ -38,6 +38,11 @@ class VolumeNormalizer:
             print(f"- {current.title}: Original {current.volume}, Adjusted {round(current.adjusted_volume, 2) if current.adjusted_volume else 'Not Normalized'}")
             current = current.next
 
+
+
+
+#----------------test--------------------------------
+
 def main():
     lookup = SongLookup()
     history = PlaybackHistory()
